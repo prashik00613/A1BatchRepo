@@ -1,0 +1,440 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 16 13:32:50 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2170 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.TESTNG.TEST_SCript3.m4()'><b>m4</b><br>Test class: com.TESTNG.TEST_SCript3<br/>
+<a href="#Output-1530880511" onClick='toggleBox("Output-1530880511", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1530880511" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1530880511">
+M4 Method is Executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_SCript3@7c37508a</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.DeleteAccount()'><b>DeleteAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-1508038883" onClick='toggleBox("Output-1508038883", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1508038883" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1508038883">
+Delete Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_script2.LoginPage()'><b>LoginPage</b><br>Test class: com.TESTNG.TEST_script2<br/>
+<a href="#Output-171421438" onClick='toggleBox("Output-171421438", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-171421438" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-171421438">
+LoginPage Method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_script2@6be968ce</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_SCript3.m3()'><b>m3</b><br>Test class: com.TESTNG.TEST_SCript3<br/>
+<a href="#Output-1470966439" onClick='toggleBox("Output-1470966439", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1470966439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1470966439">
+M3 Method is Executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_SCript3@7c37508a</td></tr>
+<tr>
+<td title='com.TESTNG.Verifiaction_TEST02.TEST02()'><b>TEST02</b><br>Test class: com.TESTNG.Verifiaction_TEST02<br/>
+<a href="#Output-659590237" onClick='toggleBox("Output-659590237", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-659590237" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-659590237">
+TEST02 method Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.Verifiaction_TEST02@1033576a</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script.Test_script02()'><b>Test_script02</b><br>Test class: com.TESTNG.TEST_Script<br/>
+<a href="#Output-1261764601" onClick='toggleBox("Output-1261764601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1261764601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1261764601">
+TestScript02<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script@59402b8f</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_script2.SingUP()'><b>SingUP</b><br>Test class: com.TESTNG.TEST_script2<br/>
+<a href="#Output-1107985860" onClick='toggleBox("Output-1107985860", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1107985860" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107985860">
+SingUp Method is Executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_script2@6be968ce</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_SCript3.m5()'><b>m5</b><br>Test class: com.TESTNG.TEST_SCript3<br/>
+<a href="#Output-1042307502" onClick='toggleBox("Output-1042307502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1042307502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1042307502">
+M5 Method is Executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_SCript3@7c37508a</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-1934932165" onClick='toggleBox("Output-1934932165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1934932165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1934932165">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-299413131" onClick='toggleBox("Output-299413131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-299413131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-299413131">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_SCRIPT_04.Singup()'><b>Singup</b><br>Test class: com.TESTNG.TEST_SCRIPT_04</td>
+<td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method com.TESTNG.TEST_SCRIPT_04.Singup() didn&apos;t finish within the time-out 2000
+	at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+	at app//com.TESTNG.TEST_SCRIPT_04.Singup(TEST_SCRIPT_04.java:13)
+	at java.base@17.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace127702987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace127702987'><pre>org.testng.internal.thread.ThreadTimeoutException: Method com.TESTNG.TEST_SCRIPT_04.Singup() didn&apos;t finish within the time-out 2000
+	at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+	at app//com.TESTNG.TEST_SCRIPT_04.Singup(TEST_SCRIPT_04.java:13)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+	at java.base@17.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>com.TESTNG.TEST_SCRIPT_04@247310d0</td></tr>
+<tr>
+<td title='com.TESTNG.Verifiaction_TEST02.TEST03()'><b>TEST03</b><br>Test class: com.TESTNG.Verifiaction_TEST02<br/>
+<a href="#Output-669284403" onClick='toggleBox("Output-669284403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-669284403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-669284403">
+TEST03 method Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.Verifiaction_TEST02@1033576a</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-1324843695" onClick='toggleBox("Output-1324843695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1324843695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1324843695">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-346359559" onClick='toggleBox("Output-346359559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-346359559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-346359559">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-849198527" onClick='toggleBox("Output-849198527", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-849198527" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-849198527">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-1297189682" onClick='toggleBox("Output-1297189682", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1297189682" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1297189682">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.EditAccount()'><b>EditAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-965586344" onClick='toggleBox("Output-965586344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-965586344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-965586344">
+Edit Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.ReadAccount()'><b>ReadAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-130764844" onClick='toggleBox("Output-130764844", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-130764844" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-130764844">
+Read Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-551016187" onClick='toggleBox("Output-551016187", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-551016187" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-551016187">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script.Test_script01()'><b>Test_script01</b><br>Test class: com.TESTNG.TEST_Script<br/>
+<a href="#Output-888557915" onClick='toggleBox("Output-888557915", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-888557915" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-888557915">
+TestScript01<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script@59402b8f</td></tr>
+<tr>
+<td title='com.TESTNG.Verifiaction_TEST03.Test01()'><b>Test01</b><br>Test class: com.TESTNG.Verifiaction_TEST03<br/>
+<a href="#Output-949767857" onClick='toggleBox("Output-949767857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-949767857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-949767857">
+Test 01 Method execution is Started<br/>
+Verification 01 started<br/>
+Verification 02 started<br/>
+TEST 01 Method execution is end<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.Verifiaction_TEST03@303cf2ba</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_SCript3.m1()'><b>m1</b><br>Test class: com.TESTNG.TEST_SCript3<br/>
+<a href="#Output-114818087" onClick='toggleBox("Output-114818087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-114818087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-114818087">
+M1 Method is Executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_SCript3@7c37508a</td></tr>
+<tr>
+<td title='com.TESTNG.Verifiaction_TEST02.Test()'><b>Test</b><br>Test class: com.TESTNG.Verifiaction_TEST02</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.Verifiaction_TEST02@1033576a</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-1272123492" onClick='toggleBox("Output-1272123492", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1272123492" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1272123492">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-1201454821" onClick='toggleBox("Output-1201454821", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1201454821" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1201454821">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_SCript3.m2()'><b>m2</b><br>Test class: com.TESTNG.TEST_SCript3<br/>
+<a href="#Output-388104475" onClick='toggleBox("Output-388104475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-388104475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-388104475">
+M2 Method is Executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_SCript3@7c37508a</td></tr>
+<tr>
+<td title='com.TESTNG.TEST_Script1.CreateAccount()'><b>CreateAccount</b><br>Test class: com.TESTNG.TEST_Script1<br/>
+<a href="#Output-238816832" onClick='toggleBox("Output-238816832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-238816832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-238816832">
+Create Account method executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.TEST_Script1@7188af83</td></tr>
+<tr>
+<td title='com.TESTNG.Verifiaction_TEST03.TEST02()'><b>TEST02</b><br>Test class: com.TESTNG.Verifiaction_TEST03<br/>
+<a href="#Output-1117871068" onClick='toggleBox("Output-1117871068", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1117871068" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1117871068">
+TEST02 <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.Verifiaction_TEST03@303cf2ba</td></tr>
+<tr>
+<td title='com.TESTNG.Verification_TEST01.M1()'><b>M1</b><br>Test class: com.TESTNG.Verification_TEST01<br/>
+<a href="#Output-800735172" onClick='toggleBox("Output-800735172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-800735172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-800735172">
+Verfication is passs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.TESTNG.Verification_TEST01@76494737</td></tr>
+</table><p>
+</body>
+</html>
